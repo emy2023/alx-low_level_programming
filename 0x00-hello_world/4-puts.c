@@ -1,10 +1,10 @@
 #include <stdio.h>
-/**
- *main - this the main function
- *
- *return - 0
- */
 
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 
 {
