@@ -5,16 +5,21 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-        int n;
-
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
-        /* your code goes there */
-        if ( n > 0){
-        printf("%lu is positive,n");
-        } else if ( n == 0){
-        printf("%lu is zero,n");
-        } else{
-        printf("%lu is negative,n");
-        }
-        return (0);
+int n;
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+/* your code goes there */
+if (n > 0)
+{
+printf("%lu is positive,n");
+}
+else if (n == 0)
+{
+printf("%lu is zero,n");
+}
+else
+{
+printf("%lu is negative,n");
+}
+return (0);
+}
