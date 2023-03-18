@@ -12,10 +12,10 @@ int main(void)
 	{
 		if (l != 'q' && l != 'e')
 		{
-			puchar(l);
+			putchar(l);
 		}
 		l++;
 	}
-	puchar('\n');
+	putchar('\n');
 	return (0);
 }
