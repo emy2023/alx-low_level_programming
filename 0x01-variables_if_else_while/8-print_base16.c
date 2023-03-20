@@ -6,11 +6,15 @@
  */
 int main(void)
 {
-	int a;
+	int h;
 
-	for (a = 0 ; a <= 15 ; a++)
+	for (h = 0 ; h <= 10 ; h++)
 	{
-		putchar('%x', a);
+		putchar(h);
+	}
+	for (h = 0; h <= 6; h++)
+	{
+		putchar(h + 'a');
 	}
 	putchar('\n');
 	return (0);
