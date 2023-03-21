@@ -2,7 +2,7 @@
 /**
  * main - check the code.
  *
- * Return: Always 0.
+ * @n: Number to pass to _islower function
  */
 
 int main(void)
