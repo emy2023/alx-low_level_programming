@@ -27,7 +27,7 @@ int main(void)
 		{
 		printf("FizzBuzz");
 		}
-		if (i != 0)
+		if (i != 100)
 		{
 			printf(" ");
 		}
