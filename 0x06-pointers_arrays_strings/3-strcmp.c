@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * strcmp - function that compares two strings
+ * _strcmp - function that compares two strings
  * @s1: first input character
  * @s2: second input character
  *
