@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * cap_string - capitalizes all words
- * @a: input characters
- * Return: the new value of characters
+ * cap_string - capitalizes all words.
+ * @a: input characters.
+ *
+ * Return: The new value of characters.
  */
 char *cap_string(char *a)
 {
@@ -16,7 +17,10 @@ char *cap_string(char *a)
 			a[i] = a[i] - 32;
 		}
 		cap_next = 0;
-		if (a[i] == ' ' || a[i] == '\t' || a[i] == '\n' || a[i] == ',' || a[i] == ';' || a[i] == '.' || a[i] == '!' || a[i] == '?' || a[i] == '"' || a[i] == '(' || a[i] == ')' || a[i] == '{' || a[i] == '}')
+		if (a[i] == ' ' || a[i] == '\t' || a[i] == '\n' ||
+		a[i] == ',' || a[i] == ';' || a[i] == '.' || a[i] == '!' ||
+		a[i] == '?' || a[i] == '"' || a[i] == '(' || a[i] == ')' ||
+		a[i] == '{' || a[i] == '}')
 		{
 			cap_next = 1;
 		}
