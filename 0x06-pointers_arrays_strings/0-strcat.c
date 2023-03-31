@@ -3,7 +3,7 @@
  * _strcat - function appends the src string to the dest string
  * @dest: first input character
  * @src: second input character
- * return: the new value of dest
+ * Return: the new value of dest
  */
 char *_strcat(char *dest, char *src)
 {
